@@ -1,4 +1,3 @@
-'''
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib import style
@@ -35,4 +34,3 @@ print(np.array(df[['Bounce_Rate', 'Visitors']]))            # Converting array t
 
 df2 = pd.DataFrame(np.array(df[['Bounce_Rate', 'Visitors']]))
 print(df2)
-'''
